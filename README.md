@@ -1,4 +1,4 @@
-# 🏈 Football Analyzer v2.0
+# ⚽ Football Analyzer v2.0
 
 Système d'analyse footballistique en temps réel avec :
 - ✅ Détection YOLO (joueurs, ballon, arbitres)
@@ -36,8 +36,8 @@ pip install -r requirements.txt
 Modifier `config.py` :
 
 ```python
-MODEL_PATH = r'chemin/vers/model.pt'
-VIDEO_PATH = r'chemin/vers/video.mp4'
+MODEL_PATH = r''
+VIDEO_PATH = r''
 DEFAULT_FPS = 30.0
 ```
 
@@ -58,13 +58,14 @@ python main.py
 - Boîtes englobantes colorées (par équipe)
 - IDs de suivi
 - Ballon entouré de la couleur équipe
+![Camera](camera.png)
 
 ### Fenêtre "Dashboard"
 - Possession en % (temps & passes)
 - Historiques (30 dernières secondes)
 - Statistiques joueurs identifiés
 - Progression calibration
-
+![dashbord](dashbord.png)
 ## 🔧 Modules
 
 ### `detector.py`
@@ -119,8 +120,7 @@ MIT
 
 ## 👨‍💻 Auteur
 
-Football Analytics Team
-
----
+mohamed amine gotai 
+etudiant data scientist
 
 **v2.0** - Refactorisation modulaire complète ✨
